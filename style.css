@@ -1,0 +1,22 @@
+body {
+    /* rgba needs 4 components: r,g,b,alpha */
+    background-color: rgba(6, 70, 44, 1);
+}
+
+img {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    object-fit: cover;
+    /* put logo at the normal stacking context so it is visible */
+    z-index: 0;
+}
+
+p {
+    color: rgba(244, 192, 10, 1);
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
