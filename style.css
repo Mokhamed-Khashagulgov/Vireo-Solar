@@ -1,0 +1,22 @@
+body {
+
+    background-color: rgba(6, 70, 44, 1);
+}
+
+img {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    object-fit: cover;
+
+    z-index: 0;
+}
+
+p {
+    color: rgba(244, 192, 10, 1);
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
